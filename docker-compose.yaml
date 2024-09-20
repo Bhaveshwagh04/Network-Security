@@ -2,7 +2,7 @@ version: "2"
 services:
  application:
     image: ${IMAGE_NAME}
-    container_name: networksecurityproj
+    container_name: networksecurityproject
     ports:
       - "8080:8080"
     environment:
