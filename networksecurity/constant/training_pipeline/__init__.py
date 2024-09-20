@@ -78,3 +78,8 @@ MODEL_EVALUATION_REPORT_NAME= "report.yaml"
 
 MODEL_PUSHER_DIR_NAME = "model_pusher"
 MODEL_PUSHER_SAVED_MODEL_DIR = SAVED_MODEL_DIR
+
+
+TRAINING_BUCKET_NAME = "mynetworksecurityproj"
+PREDICTION_BUCKET_NAME = "my-network-datasource"
+PREDICTION_DIR="prediction"
