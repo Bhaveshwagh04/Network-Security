@@ -71,7 +71,7 @@ async def train_route():
     except Exception as e:
             raise NetworkSecurityException(e,sys)
     
-"""
+
 @app.post("/predict")
 async def predict_route(request: Request,file: UploadFile = File(...)):
     try:
@@ -91,7 +91,7 @@ async def predict_route(request: Request,file: UploadFile = File(...)):
         
     except Exception as e:
             raise NetworkSecurityException(e,sys)
-
+""""
 def main():
     try:
         training_pipeline = TrainingPipeline()
