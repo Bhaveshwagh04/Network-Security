@@ -3,7 +3,7 @@ USER root
 RUN mkdir /app
 COPY . /app/
 WORKDIR /app/
-RUN pip3 install -r requirements.txt
+RUN apt-get update && apt-get install -y python3 && pip install -r requirements.txt
 ENV AWS_DEFAULT_REGION = "us-east-1"
 ENV BUCKET_NAME="mynetworksecurityproject"
 ENV PREDICTION_BUCKET_NAME="my-network-datasource"
