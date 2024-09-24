@@ -4,7 +4,7 @@
 **Deployment Guide**
 
 
-- 1. Login to AWS Console
+"1. Login to AWS Console"
 
 Start by logging into the AWS Management Console.
 
