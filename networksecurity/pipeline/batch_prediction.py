@@ -1,4 +1,4 @@
-"""import os
+import os
 import sys
 import pandas as pd
 import numpy as np
@@ -38,4 +38,4 @@ def start_batch_prediction(input_file_path):
         return prediction_file_path
     
     except Exception as e:
-        raise NetworkSecurityException(e, sys)"""
+        raise NetworkSecurityException(e, sys)
