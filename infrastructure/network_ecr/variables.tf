@@ -1,5 +1,5 @@
 variable "network_ecr_name" {
-  default = "network"
+  default = "networknew"
   type    = string
 }
 
