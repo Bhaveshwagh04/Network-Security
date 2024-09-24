@@ -1,4 +1,4 @@
-from asyncio import tasks
+"""from asyncio import tasks
 import json
 from textwrap import dedent
 import pendulum
@@ -59,4 +59,4 @@ with DAG(
 
     )
 
-    download_input_files >> generate_prediction_files >> upload_prediction_files
+    download_input_files >> generate_prediction_files >> upload_prediction_files"""
