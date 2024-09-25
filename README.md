@@ -1,12 +1,31 @@
 # Network-Security
 
+# How to run?
 
-## Deployment Guide
+# STEPS:
+
+ Clone the repository
+Project repo: https://github.com/
+
+# STEP 01- Create a conda environment after opening the repository
+
+conda create -n networksecurity python=3.10 -y
+
+conda activate networksecurity 
+
+# STEP 02- install the requirement
+
+pip install -r requirements.txt
+
+# Finally run the following command
+python main.py
+
+## Deployment Steps
 
 
 ### 1. Login to AWS Console
 
-`Start by logging into the AWS Management Console.`
+```Start by logging into the AWS Management Console.```
 
 ### 2. Create IAM User for Deployment
 
@@ -32,7 +51,7 @@
 
 ```Create an ECR repository to store/save Docker images:```
 
-```ECR Repository URI: 825765389763.dkr.ecr.us-east-1.amazonaws.com/mynetworksecuritydockerimage``
+```ECR Repository URI: 825765389763.dkr.ecr.us-east-1.amazonaws.com/mynetworksecuritydockerimage```
 
 ### 5. EC2 Machine Setup**
 
@@ -67,7 +86,7 @@ newgrp docker
 
 ```Go to Settings > Actions > Runners. Click on New self-hosted runner. Choose the operating system. Follow the provided commands to complete the setup.```
 
-```Setup GitHub Secrets``
+```Setup GitHub Secrets```
 
 ```Add the following secrets to your GitHub repository:```
 
