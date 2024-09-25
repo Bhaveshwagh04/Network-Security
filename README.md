@@ -95,7 +95,7 @@ newgrp docker
 AWS_ACCESS_KEY_ID: Your AWS access key. AWS_SECRET_ACCESS_KEY: Your AWS secret access key.AWS_REGION:us-east-1 CR Repository URI: 825765389763.dkr.ecr.us-east-1.amazonaws.com/mynetworksecuritydockerimage ECR_REPOSITORY_NAME: mynetworksecurityproject
 MONGO_DB_URL:MONGO_DB_URL
 
-Deployment Description Follow these steps for deployment:
+```Deployment Description Follow these steps for deployment:```
 
 Build Docker Image: Build a Docker image of your source code. Push Docker Image to ECR: Push the Docker image to the ECR repository. Launch EC2 Instance: Start your EC2 instance. Pull Docker Image on EC2: Pull the Docker image from ECR to your EC2 instance. Launch Docker Image on EC2: Run your Docker image on the EC2 instance.
 
