@@ -17,8 +17,6 @@ conda activate networksecurity
 
 pip install -r requirements.txt
 
-# Finally run the following command
-python main.py
 
 ## Deployment Steps
 
@@ -53,11 +51,11 @@ python main.py
 
 ```ECR Repository URI: 825765389763.dkr.ecr.us-east-1.amazonaws.com/mynetworksecuritydockerimage```
 
-### 5. EC2 Machine Setup**
+### 5. EC2 Machine Setup
 
 ```Create an EC2 machine with Ubuntu.```
 
-## 6. Install Docker on EC2 Machine**
+## 6. Install Docker on EC2 Machine
 
 ```Open your EC2 instance and install Docker:```
 
