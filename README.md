@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ### 3. Create an S3 Bucket
 
-``Region: us-east-1``
+```Region: us-east-1```
 ``Bucket Name: mynetworksecurityproject``
 
 ### 4. ECR Repository
